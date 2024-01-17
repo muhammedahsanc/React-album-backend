@@ -6,9 +6,9 @@ const  sharp   = require('sharp');
 const storage = multer.memoryStorage();
 
 cloudinary.config({
-  cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
-  api_key:process.env.CLOUDINARY_API_KEY,
-  api_secret: process.env.CLOUDINARY_SECRET_KEY
+  cloud_name: dteo8gino,
+  api_key:721761374896543,
+  api_secret: Tbt2Jr-YZ23J4SI2sBvH47J8V4A
 });
 
 const fileFilter = (req, file, cb) => {

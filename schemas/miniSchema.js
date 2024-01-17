@@ -44,4 +44,4 @@ const schemaData = new Schema(
   }
 );
 
-module.exports = model(process.env.miniCollection, schemaData);
+module.exports = model(mini, schemaData);
