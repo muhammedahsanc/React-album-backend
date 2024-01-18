@@ -44,4 +44,4 @@ const schemaData = new Schema(
   }
 );
 
-module.exports = model(mini, schemaData);
+module.exports = model('mini', schemaData);
